@@ -7,7 +7,7 @@ const app=express()
 app.use(express.json())
 app.use(cors())
 
-const API_KEY = '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'
+const API_KEY = 'openai_api_key'
 
 app.post('/completions', async (req, res )=>{
 
